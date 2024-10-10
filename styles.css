@@ -1,0 +1,327 @@
+   :root {
+        --primary-color: #0666eb;
+        --secondary-color: #191c1f;
+        --background-color: #f5f5f5;
+        --card-background: #ffffff;
+        --text-color: #191c1f;
+        --text-secondary: #8e8e93;
+        --border-color: #e1e1e1;
+    }
+    body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    header {
+        background-color: var(--card-background);
+        color: var(--text-color);
+        padding: 15px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+    }
+    .logo {
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+    }
+    .logo img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    .account-overview {
+        background: linear-gradient(135deg, #0666eb, #0052cc);
+        color: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 70px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .balance {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .account-name {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 15px;
+    }
+    .quick-actions {
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .action-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: none;
+        border: none;
+        color: #0666eb;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .action-button img {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 8px;
+    }
+    .transactions {
+        margin-top: 20px;
+        background-color: var(--card-background);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .transaction-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        border-bottom: 1px solid var(--border-color);
+    }
+    .transaction-item:last-child {
+        border-bottom: none;
+    }
+    .transaction-details {
+        display: flex;
+        align-items: center;
+    }
+    .transaction-icon {
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+    }
+    .transaction-icon img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .transaction-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .transaction-name {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .transaction-date {
+        font-size: 12px;
+        color: var(--text-secondary);
+    }
+    .transaction-amount {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .lang-selector {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 1001;
+    }
+    .lang-selector select {
+        padding: 8px 12px;
+        border-radius: 20px;
+        border: 1px solid var(--border-color);
+        background-color: var(--card-background);
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--text-color);
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url('data:image/svg+xml;utf8,<svg fill="%23000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+        background-repeat: no-repeat;
+        background-position: right 8px center;
+        background-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .lang-selector select:hover {
+        background-color: var(--background-color);
+    }
+    .tab-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        border-top: 1px solid var(--border-color);
+    }
+    .tab-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--text-secondary);
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .tab-item.active {
+        color: #0666eb;
+    }
+    .tab-item img {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 5px;
+    }
+    .user-profile {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .profile-picture {
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .profile-info h2 {
+        margin: 0;
+        font-size: 18px;
+    }
+    .profile-info p {
+        margin: 5px 0;
+        color: var(--text-secondary);
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+    #pin-input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    #confirm-withdrawal, #cancel-withdrawal {
+        padding: 10px 20px;
+        margin: 10px 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #confirm-withdrawal {
+        background-color: var(--primary-color);
+        color: white;
+    }
+    #cancel-withdrawal {
+        background-color: #f44336;
+        color: white;
+    }
+    .popup {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: var(--primary-color);
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        z-index: 1000;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .popup.show {
+        opacity: 1;
+    }
+ .verified-badge {
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+    /* Styles pour le bouton */
+.toggle-button {
+    padding: 5px 10px; /* Remplissage du bouton */
+    background-color: #007bff; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en main */
+    display: flex; /* Flex pour centrer l'icône et le texte */
+    align-items: center; /* Aligner verticalement */
+    font-size: 14px; /* Taille de police */
+}
+
+/* Styles pour l'icône dans le bouton */
+.toggle-button i {
+    margin-right: 5px; /* Espace entre l'icône et le texte */
+}
+
+/* Effet de survol pour le bouton */
+.toggle-button:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+/* Style pour les popups d'information */
+.info-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+}
+
+/* Style pour les popups de traitement */
+.processing-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+}

