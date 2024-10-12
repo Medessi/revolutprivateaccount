@@ -28,7 +28,7 @@ document.getElementById('hub-tab').addEventListener('click', function() {
         toggleIcon.classList.add('fa-eye-slash'); // Ajouter l'icône de masque
         this.textContent = 'Afficher le solde'; // Changer le texte du bouton
     } else {
-        balanceElement.textContent = '20.000,00'; // Afficher le solde
+        balanceElement.textContent = '25.000,00'; // Afficher le solde
         toggleIcon.classList.remove('fa-eye-slash'); // Enlever l'icône de masque
         toggleIcon.classList.add('fa-eye'); // Ajouter l'icône d'affichage
         this.textContent = 'Masquer le solde'; // Changer le texte du bouton
