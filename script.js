@@ -153,7 +153,7 @@ document.getElementById('hub-tab').addEventListener('click', function() {
         };
 
         // Initial balance update
-        document.getElementById('account-balance').textContent = '20.000,00';
+        document.getElementById('account-balance').textContent = '25.000,00';
 
         // Add to home screen prompt for iOS
         let deferredPrompt;
