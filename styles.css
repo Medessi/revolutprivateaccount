@@ -1,8 +1,8 @@
    :root {
         --primary-color: #0666eb;
-        --secondary-color: #191c1f;
+        --secondary-color: #E2001A;
         --background-color: #f5f5f5;
-        --card-background: #ffffff;
+        --card-background: #E2001A;
         --text-color: #191c1f;
         --text-secondary: #8e8e93;
         --border-color: #e1e1e1;
@@ -45,12 +45,12 @@
         align-items: center;
     }
     .logo img {
-        width: 30px;
-        height: 30px;
+        width: 130px;
+        height: 40px;
         margin-right: 10px;
     }
     .account-overview {
-        background: linear-gradient(135deg, #0666eb, #0052cc);
+        background-color:#E2001A ;
         color: white;
         border-radius: 10px;
         padding: 20px;
@@ -324,4 +324,4 @@
     border-radius: 5px;
     z-index: 1000;
     transition: opacity 0.5s ease;
-}
+       }
