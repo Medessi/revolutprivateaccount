@@ -52,7 +52,7 @@ document.getElementById('hub-tab').addEventListener('click', function() {
 ,
                 confirm: "Confirmer",
                 cancel: "Annuler", 
-                userName: "Chulud El Merkabawi",
+                userName: "Frustuck Walter",
         userSince: "Client depuis 2024",
         userStatus: "Statut: Premium"
             },
