@@ -73,7 +73,7 @@ document.getElementById('hub-tab').addEventListener('click', function() {
 ,
                 confirm: "Bestätigen",
                 cancel: "Abbrechen", 
-                  userName: "Chulud El Merkabawi",
+                  userName: "Frustuck Walter",
         userSince: "Kunde seit 2024",
         userStatus: "Status: Premium"
             }
